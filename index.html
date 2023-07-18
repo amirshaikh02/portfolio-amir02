@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amir-Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <section>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/amirshaikh02/"><i class="uil uil-linkedin"></i></a><br>
+            <a href="https://github.com/amirshaikh02"><i class="uil uil-github"></i></a><br>
+            <a href="https://github.com/amirshaikh02"><i class="material-icons">&#xe0be;</i></a><br>
+        </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="name">Amir Shaikh</h2>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#workAndProject">Work/Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                    <i class="uil uil-mutliply" onclick="closeMenu()"></i>   
+                </ul>
+                <i class="uil uil-apps" onclick="openMenu()"></i>   
+            </nav>
+
+            <div class="header-text">
+                <h1>Hi....! <br> I am <span>Amir</span> Shaikh</h1>
+                <p>Full Stack Developer</p>
+            </div>
+        </div>
+    </div>
+    <!-- //https://source.unsplash.com/random/900×700/?fruit -->
+
+
+
+    <!-- //About  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/photoamir.jpg" alt="idphoto">
+                    <a href="https://drive.google.com/file/d/1rC3MBl_c0aMCsf-FDIIdBabh0er_QmaC/view?usp=sharing" class="btn btn1">Resume</a>
+                </div>
+
+                <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1>
+                   <p>Hello, My Self Amir Aslam Shaikh, I am 21 years old, I am recently graduate Bacheler of engineering in IT  at Sir Visvesvaraya Institute of Technology, Nashik. I am belongs to Solapur, Maharashtra. My aim is web developer Engineer. Learning HTML, CSS, javascript, React, Node Js , MangoDB, Express js Exploring, Cloud Computing.
+                   </p>
+
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('certification')">Certification</p>
+                    <p class="tab-links" onclick="openTab('education')">Education</p>
+                    <p class="tab-links" onclick="openTab('acheivements')">Achievements</p>
+                    <p class="tab-links" onclick="openTab('interest')">Interest</p>
+                   </div>
+
+                   <div class="tab-contents active-tab" id="certification">
+
+                    <ul>
+                        <li>
+                            <span>Lets Upgrade-Full Stack Developer Program</span>
+                            <span><a href="#">Certificate Link</a></span>
+                        </li>
+
+                        <li>
+                            <span>Aws Cloud Practionar Essential </span>
+                            <span><a href="#">Certificate Link</a></span>
+                        </li>
+
+                        <li>
+                            <span>Oracle Sun Certified </span>
+                            <span><a href="#">Certificate Link</a></span>
+                        </li>
+
+                        <li>
+                            <span>Python Crash Course by Google</span>
+                            <span><a href="#">Certificate Link</a></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>BE</span>
+                            <span>Branch: Information Technology</span>
+                            June 2023 <br>
+                            Sir Visvesvaraya Institute of Technology, Nashik.
+
+                        </li>
+                    </ul>
+
+                    <li>
+                        <span>Diploma (2020)</span>
+                        <span>Branch: Information Technology</span>
+                        July 2020 <br>
+                        Vidya Vikas Pratishtan Polytechnic, Solapur</li>
+
+                    <li>
+                        <span>Secondary School Certificate (2017)</span>
+                        <span>Branch: Information Technology</span>
+                        May 2017 <br>
+                        Swami Vivekanand Prashala, Solapur </li>
+                </div>
+
+                <div class="tab-contents" id="acheivements">
+                    <ul>
+                        <li>
+                            <span>All India Hackathon Certified</span> Awared, Ministry of Digital India <br>
+                            APril,2023
+                        </li>
+
+                        <li>
+                            <span>Star of Month </span> Award, Amazon <br>
+                            APril,2022 <br>
+                            --award for the most contribution to the work by takin multiple task in Team.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="interests">
+                    <ul>
+                        <li>Sports</li>
+                        <li>Movies</li>
+                        <li>Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Skills  -->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="skills-list">
+            <div class="skill">
+                <div style="background-color: orange; width: 70%;">HTML5</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: blue; width: 80%;">CSS</div>
+                <div style="background-color: white; width: 20%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: gold; width: 80%;">Javascript</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(255, 0, 115); width: 80%;">React.js</div>
+                <div style="background-color: white; width: 30%;">80%</div>
+            </div>
+            <div class="skill">
+                <div style="background-color: rgb(255, 51, 0); width: 80%;">NodeJs</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+            <div class="skill">
+                <div style="background-color: greenyellow; width: 80%;">Express</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(46, 14, 163); width: 80%;">Mongodb</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(66, 163, 14); width: 80%;">Bootstrap</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(14, 163, 128); width: 80%;">MySQL</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(156, 135, 235); width: 80%;">MUI</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(14, 163, 54); width: 80%;">ReactStrap</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+
+            <div class="skill">
+                <div style="background-color: rgb(163, 153, 14); width: 80%;">Agile</div>
+                <div style="background-color: white; width: 30%;">70%</div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-top: 20px">
+        <h1>Tools</h1>
+        <div class="tools">
+            <div class="tool" style="background-color:rgb(82, 74, 74) ,shadow-orange-500">Git</div>
+            <div class="tool" style="background-color:rgb(44, 52, 214) ;">Vscode</div>
+            <div class="tool" style="background-color:rgb(255, 102, 19) ;">postman</div>
+            <div class="tool" style="background-color:rgb(82, 74, 74) ;">ThunderClient</div>
+            <div class="tool" style="background-color:rgb(223, 127, 127) ;">Netlify</div>
+            <div class="tool" style="background-color:rgb(104, 247, 104) ;">Render</div>
+            <div class="tool" style="background-color:rgb(232, 161, 208) ;">Vercel</div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Work/Projects  -->
+<div id="workAndProjects">
+    <div class="container">
+        <h1 class="sub-title">My Work and Projects</h1>
+        <div class="wp-list">
+            <div class="wp">
+                <img src="./images/calculator.PNG" alt="">
+                <div class="layer">
+                    <h4>Calculator</h4>
+                    <p>This is calculator Web App</p>
+                    <div class="used">
+                        <span>HTML</span> <span>CSS</span>  <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-around; width: 100;">
+                        <a style="color: red;" href="https://amirshaikh02.github.io/Calculator-Web-Page/"_blank"><i class="uil uil-link">Live</i></a>
+                        <a style="color: blue;" href="https://github.com/amirshaikh02/Calculator-Web-Page"_blank"><i class="uil uil-github">Github</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wp">
+                <img src="./images/Capture.PNG" alt="">
+                <div class="layer">
+                    <h4>Bootstrap Website</h4>
+                    <p>This is Bootstrap Website</p>
+                    <div class="used">
+                        <span>HTML</span> <span>Bootstrap</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-around; width: 100;">
+                        <a style="color: red;" href="https://bootstrap-website-01.netlify.app/" target="_blank"><i class="uil uil-link">Live</i></a>
+                        <a style="color: blue;" href="https://github.com/amirshaikh02/Bootstrap-Website" target="_blank"><i class="uil uil-github">Github</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wp">
+                <img src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456" alt="">
+                <div class="layer">
+                    <h4>Netfix-clone</h4>
+                    <p>This is netflix Website</p>
+                    <div class="used">
+                        <span>Reactjs</span> <span>NodeJs</span>  <span>Express</span>
+                        <span>Mongodb</span>  <span>MUI</span>  <span>Reactstrap</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-around; width: 100;">
+                        <a style="color: red;" href="https://github.com/amirshaikh02/Netflix-clone" target="_blank"><i class="uil uil-link">Live</i></a>
+                        <a style="color: blue;" href="https://github.com/amirshaikh02/Netflix-clone" target="_blank"><i class="uil uil-github">Github</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wp">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAR4AAACwCAMAAADudvHOAAABp1BMVEVVlubB5v/m5uYjHyD/wpUwMDDW2NcdNkoAAADF6/8fEQBGdrUgGxszNDjM9f//UAQPAACNp60qN0hbovbu6uZMkuXI7/95kJYXCgn///+VsLWOprOsztwpKSlGj+aNrcAAJDgAGDHBz+bIyskcAABQis7qr4daZnCAnqkkGhS83usuKiP/PQAzO0VBY4697/9BRUObusSqv90AIDj/xo3549g4T2PXsYn8ThL/nH2cnJzU2uWXteDvdVq59P+73uv/IwD2dVIiKCsqHQBlZWUAMk+yuL51fYWhpqsAABUPLkRncnzRoH7/vYnpqoH/zZ19quZDWXxMc6fV/f/RxsP3Xzbcq6XWurbbr6zuf2bar6v5VSBlrf90dHTJ1NRQUFDkTxOJQThJOkfSSx+iRTBjOzzBSSR1QD7pkHvjm5i/6OnxcmX1ZkUAL1NBUmAAAyYABCvcu6nnvp9mgI27sLpMZnqWeGHAqI/+3cgAETqezePj18vItLP71LzozrZtm972rXVLPzSNncskjfUAFCC3k3UUU42DbmidkoelqMSHm82RtOXg7v5k1aNKAAAKAklEQVR4nO3djUPTZh4H8FJK2gBS1jfMaEMx8iIUq7RUD5XCIaWElepQGXIWdm67O+fK0YnniR4MbncT9kfvyVtpkidp0qQmaZ6vWmNAST788suTp7XxeFBQUFBQUFBQUFBQUFBQUFBQUFBQUFDsmfBYn03jCVttA5K73mvTXH9suU94prfbtunNWe3z9VWrDdRyvc9anfBMv9UEarlhcfmEb1gtoJr+kC14+u0XG/H0J67YLgn78AwObw7YLJtDV+3DMxnrsllituLBreaQBvGoBvGoBvGoBvGoBvGoBvGoBvGoBvGoBvGoBvGoBvGopsN48PTCQjrNPJiB02k8C0+W7rJ5+mwB8UiTfpYK8kktmeLTUTxTjA5TPMFUMLVlRiPrJJ70N6ngNtt7mDLaNqP9dBTPs1TqOYcC6uiBGUdXp/E8wxGPGg+qHkWeb3Z2nndy9Rh8puJyOOhonrA0f7nRL3+ey4iVo3kez0iTSPSAXLnVmNW8biDh4MQdzDO2PN0jSeLWi1uydd2DcV29KE1d5kkquFSJGR8Yfn6e8BUpBKB4sfswIV97ZUDHnrzaSTWEua5IUYZ9Pj/P2DKEp+dhT0LuM5jXviML20FZUoYHznbgSew+ZLIr87mq4+hK70B4ppzIk5BGYJKmVxfP0w7h2Z3Qll1d1XP3TzzK3p6jea4PD8Rgka4d+DLQCs+3Kyt/dTaPtp3GW+J5ueL3r3yLeCQReL4DPP7vEY8kAs8eqh5Y6r3nB1A8dxGPJJdnrr+FHH7mQjwW8nzvRzyyXPI4fNSMeKzg6ZRL0jbx/D0l49kxPGFoD550haIq0skZfTxd6e2UJE8NF489eNLbiyDbku+1Tp6u9JQkaSdOpkJ4phYPpqYOFl+J1+rlaUdswXNvsYLjFOJR4Jn6B+gSiEeJZ4FJZfGVeD3i4VJ58CPIUvDBPdFqRR7cYJzFs/CaH7GkHojO7Uo8eHzEWHT42IFn6UEw+JKZP9fGM5DLJA0ks3Zbu48teH4M7v300552Hr+hZJzHc3dlZUcrT4znoRt2mZb8qcN4gj98p+Pg4gyqyWrdo5qcqJtU6fryKE1nhNWjfn7ZiTwvX+rlCRFJbzHJ6awSAYI3yRSwEMHzZLyr617Bh6CLhaQTeV6/5q+wl3T1nlWK2uelgEkxGWKXc/tYZSLEF8wERk3sc8v7xaKXKx+H8eBbwlTElg6eKkERmJetB3reSxFUZIhmi8eLgY+wnzJKUV4vhXHl4y0QGEZlnMfTlRaibdTMV88/5wveNf4oWqOKBX6ZXvMWVrmKoddDGBZa59avVzGKW3Yaj0Ka8OSIfazee7wBgmdIFgohQujGWLGIjXLLSaLqLTrx4GqRhw7RIaHt0g1ndrBeWKZXQ9VVYXkoM8F1b0fwxPIg0gksIfk8bsqwkG4YAwE0/tzmBJ54YFQla3F3j5rxONMTZsAv/iTM/sYeLMw3eVSNp7qvJts0TrjmYnmoIqj4VYppCYUCWJwogP6aKYIOqsaD5+PG4oArdsBDg0Fbzk8XvaB7VitUFSwS4FRUxcAKNR5Dwbt0/ZNWVg+9DoqFXq9W/fziBPOYHAJcbePRGeta834ymWEmbtgHfnGUeRwFj/sAxtU8sUnVqJzYXcHTZMa4y+08TYN4VIN4VONGniiJeJRtPJ8O7gQQDywkeXqQzfoQDyRR8vgNsAFBPBCc8wPWRi9Pm/e+aT4HD8CpCTg6eWJGX25gMAPt5yEfNeDo4hkc+sLifDnR314e0nPQiAPl4b5Tcp7+q4NWh3039LbxRMk3YhwYT+z2yAj4GY/JeLrtkTbxRMnTrFRHzoNPTm1uxjYH4iMxV/GQxzUZjpwHH9nMH/pz/p9jefELkzqbB3JcwXjwkVienjw8PJzMxOJx1/BEz31QHd9XYp78+03/7dzk6qR/+OdNUfkAnoBNkjG/euA44+NiHvx2Hj88HH77r7eTw/SAhCdQwOyRe6TJOOQHOI6MZwSPf3EnW343V5v3x97nxTyU1yYxmwdWPOPjMJ40VfKV50De/Tv2vssdPOQnGc/4OJTn/ZOSrzbH8szHRKf2TuYpK+DIeI5KPl+E4ynIeo8FPNi86EeRagfPeVZJR8yDY0DHx+rM+Qak4x5LqoeS/GgDj6wxK/FMMTq+j4xO+WgkbgMecfVQbakeUqnxSHhw/sPA5+OdkbzsxXMdWj3H0sYM58EvP+Gj7730feY6tnqisssJGE+6Urr8hJJ8DsgW1YN5zechD5QPrg2BB/9Pow7kf8Xaonrm2U0wd9R8pjTo2QDheNIVX6MOJtexR/VQTPlEZk3lkbUeXx2H5xGVjq90BH0VmG2GhREzcTzRU/kVBSsjVE8aK4k+eJSGvpeYTXgikUdRM3nINzId3/gJF8Cz9su4SKf869oNaLoDVKRpdO1nS7l2bKoOpDP7fDVwyJ2fnp6+2fjqrfiCo/zrf+Vvg8lleSzaLOQspTkXZNN/DvYVSHN1PGRNzuOrkSBnZ+fg8lyrDuBp/rVmMc08903ezxYjGzNz+bB14JPNzIMjS1GnZ7n514rOyuau7M6jMFEIi1rt9ExruFMzhEfRyyY88vO6ss7an7kkpmVZntHwtbTwCLEHT1Q6m6GY7If//f8tm99+uylLn5b5bwfyyGcKlXTIsKfEjhhrEelljcbnBpzHAxv2QHUOgEj0+IT1KX1qbdsdyAN9kkKeGlsvUc/4Senk5LzFqxoH8kBGhZCUhY0ljz+dtzz0ciAPbFQoP7ROLzfWwGY7kEf6LAU0rTYbSZzHo2lUOH7iVh5No8KNk1mX8mgZFW5sbBiboIySXM508Fzwf8fsS3B9G65hVAh0apgRHvL+PT465nuEv3LvwvRXFOjY8qajwuzzk42Nd4Zm/x/pmQaT5ci0ndWfpqPC7NbZh5OT0pGR0/mFrmlCcSLeyLF5u6s3zUeFpIf0HHuMFE/00TVDsZKnyagwa8bUrdCZW4zxDWg5CnOFdZ1PVm6c9YmqnriyW+7WaTIqrLlaJxpV5ynbYuBqVaIXF2eQp0gvdYxcnDs/JEH8Xisp4WRrUdfqhPs8YfI+ARIpw4Fc3ZXHlpdnHhNc5mBA2Tcu1gmHmFsgegkByCcFyp66WMfTx9wvMhF4oQh07GadMH+jWgAUgQC5uSmDhG/W7+PbHZgXfIh3gs6Bm0sHpPFWrCIgtoDK7tYJ58Q3ge4OFBuBGp+zcWP6ZPfx7U9cAn2snVm9gZYGdo/snv6eQh3I3JcuOiwNfVmUQA/F81i9hdYGcgdxHugWC3TNzZ05/BhePMwoKBHYxQjCzTrQ28/XeRLdgV1zX3HvsIRn1HQYoMHc2Od74za75WvV4mEz3Zuzeisti2LjqeuA9Fq9lRZFtS/Xc+OmS48u9b4sRMOr2zsyzCRYc51pFxXPH0DNav0uHpb2AAAAAElFTkSuQmCC" alt="">
+                <div class="layer">
+                    <h4>Oauth-Login-Logout</h4>
+                    <!-- <em>Dec,2022-April,2023</em> -->
+                    <p>An authentication using Open Authorization which includes Google,Github Authentication </p>
+                    <div class="used">
+                        <span>Reactjs</span> <span>NodeJs</span>  <span>Express</span>
+                        <span>Mongodb</span>  <span>MUI</span>  <span>Reactstrap</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-around; width: 100;">
+                        <a style="color: red;" href="/" target="_blank"><i class="uil uil-link">Live</i></a>
+                        <a style="color: blue;" href="/" target="_blank"><i class="uil uil-github">Github</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="wp">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <div class="layer">
+                    <h4>Pokemon api </h4>
+                    <!-- <em>Dec,2022-April,2023</em> -->
+                    <p>This is frontend API project using javascript to display all makeup product 
+                        that fetch the data from API on search using advance Search and Filter Mechanism.
+                    </p>
+                    <div class="used">
+                        <span>Reactjs</span> <span>NodeJs</span>  <span>Express</span>
+                        <span>Mongodb</span>  <span>MUI</span>  <span>Reactstrap</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-around; width: 100;">
+                        <a style="color: red;" href="https://aquamarine-cucurucho-29d8be.netlify.app/" target="_blank"><i class="uil uil-link">Live</i></a>
+                        <a style="color: blue;" href="https://aquamarine-cucurucho-29d8be.netlify.app/" target="_blank"><i class="uil uil-github">Github</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Experience  -->
+<div id="experience">
+    <div class="container">
+        <h1 class="sub-title">Internship</h1>
+        <div class="tab-titles">
+            <p class="exp-tab-links exp-active-link" onclick="openTabExp('persistent')">Microsoft Azure Intern at
+                Future Ready Talent
+            </p>
+        </div>
+
+        <div class="exp-tab-contents exp-active-tab" id="persistent">
+            <ul>
+                <li>
+                    <span>During my internship, I acquired valuable technical skills and
+                        actively utilized the power of Microsoft Azure and GitHub to
+                        tackle real-world challenges.
+                        I successfully completed various projects, applying my
+                        knowledge to deliver practical solutions.<br>
+                    <em style="opacity: .5;">Software Developer-Trainee</em>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- contact me  -->
+<div id="contact">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-contact-1">
+                
+                <h1 class="sub-title">Contact me</h1>
+                
+                <p><i class="uil uil enevelope"></i>iamirshaikh02@gmail.com</p>
+                <p><i class="uil uil-mobile-android"></i>91-70xxxxxxxx</p>
+            <!-- <div class="social-icons">
+                <a href="http://www.linkedin.com/abhijeet-karamkar"><i class="uil uil-linkedin"></i></a>
+                <a href="https://github.com/amirshaikh02"><i class="uil uil-github"></i></a>
+            </div> -->
+            <a href="https://writing.colostate.edu/guides/documents/resume/functionalsample.pdf" target="_blank" class="btn btn1">Resume</a>
+            </div>
+            <div class="col-contact-2">
+                <span id="msg"></span>
+                <form method="post">
+                    <input type="text" name="name" placeholder=" Write Message">
+                    <input type="email" name="email" placeholder="Enter Email">
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            
+
+
+            
+        </div> 
+    </div>
+</div>
+
+<div class="copyright">
+    <p>Copyright &#169 2023-Amir Shaikh</p>
+</div>
+
+<a href="#header"><i class="uil uil-arrow-circle-up"></i></a>
+
+</section>
+
+
+    
+</body>
+</html>
